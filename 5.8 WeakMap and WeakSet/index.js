@@ -46,8 +46,8 @@ visitedSet.add(pete); // Then Pete
 visitedSet.add(john); // John again
 
 // visitedSet has 2 users now
-alert(visitedSet.has(john)); // true
+console.log(visitedSet.has(john)); // true
 
-alert(visitedSet.has(mary)); // false
+console.log(visitedSet.has(mary)); // false
 john = null;
 // visitedSet will be cleaned automatically
